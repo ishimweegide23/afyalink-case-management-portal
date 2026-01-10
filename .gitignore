@@ -1,0 +1,20 @@
+# Crash logs and debug files
+hs_err_pid*.log
+replay_pid*.log
+debug.log
+
+# Node modules and build output
+node_modules/
+build/
+dist/
+
+# IDE and OS files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
