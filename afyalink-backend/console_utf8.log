@@ -1,0 +1,1144 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.afyalink:afyalink-backend >--------------------
+[INFO] Building afyalink-backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:4.0.2:run (default-cli) > test-compile @ afyalink-backend >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ afyalink-backend ---
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ afyalink-backend ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ afyalink-backend ---
+[INFO] skip non existing resourceDirectory D:\AfyaLink Case Management Portal\afyalink-backend\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ afyalink-backend ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:4.0.2:run (default-cli) < test-compile @ afyalink-backend <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:4.0.2:run (default-cli) @ afyalink-backend ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.2)
+
+2026-05-19T21:54:51.365+02:00  INFO 13560 --- [  restartedMain] c.a.backend.AfyalinkBackendApplication   : Starting AfyalinkBackendApplication using Java 17.0.12 with PID 13560 (D:\AfyaLink Case Management Portal\afyalink-backend\target\classes started by Hey in D:\AfyaLink Case Management Portal\afyalink-backend)
+2026-05-19T21:54:51.382+02:00 DEBUG 13560 --- [  restartedMain] c.a.backend.AfyalinkBackendApplication   : Running with Spring Boot v4.0.2, Spring v7.0.3
+2026-05-19T21:54:51.386+02:00  INFO 13560 --- [  restartedMain] c.a.backend.AfyalinkBackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-05-19T21:54:51.604+02:00  INFO 13560 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-19T21:54:51.605+02:00  INFO 13560 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-19T21:54:57.882+02:00  INFO 13560 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-19T21:54:59.196+02:00  INFO 13560 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1266 ms. Found 18 JPA repository interfaces.
+2026-05-19T21:55:03.037+02:00  INFO 13560 --- [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-19T21:55:03.070+02:00  INFO 13560 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-19T21:55:03.071+02:00  INFO 13560 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-05-19T21:55:03.220+02:00  INFO 13560 --- [  restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 11613 ms
+2026-05-19T21:55:03.875+02:00  INFO 13560 --- [  restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-19T21:55:04.044+02:00  INFO 13560 --- [  restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.1.Final
+2026-05-19T21:55:05.438+02:00  INFO 13560 --- [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-19T21:55:05.515+02:00  INFO 13560 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-19T21:55:06.274+02:00  INFO 13560 --- [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@78fd0214
+2026-05-19T21:55:06.277+02:00  INFO 13560 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-19T21:55:06.482+02:00  WARN 13560 --- [  restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-19T21:55:06.594+02:00  INFO 13560 --- [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/afyalink_db]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.0
+	Default catalog/schema: afyalink_db/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-19T21:55:12.649+02:00  INFO 13560 --- [  restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-19T21:55:12.863+02:00 DEBUG 13560 --- [  restartedMain] org.hibernate.SQL                        : 
+    alter table if exists reports 
+       add column attachment_count integer default 0 not null
+Hibernate: 
+    alter table if exists reports 
+       add column attachment_count integer default 0 not null
+2026-05-19T21:55:12.897+02:00 DEBUG 13560 --- [  restartedMain] org.hibernate.SQL                        : 
+    alter table if exists reports 
+       add column photo_count integer default 0 not null
+Hibernate: 
+    alter table if exists reports 
+       add column photo_count integer default 0 not null
+2026-05-19T21:55:13.005+02:00  INFO 13560 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-19T21:55:13.206+02:00  INFO 13560 --- [  restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-19T21:55:18.208+02:00 DEBUG 13560 --- [  restartedMain] c.a.b.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
+2026-05-19T21:55:23.577+02:00  INFO 13560 --- [  restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-05-19T21:55:23.577+02:00  WARN 13560 --- [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-05-19T21:55:28.765+02:00  INFO 13560 --- [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoints beneath base path '/actuator'
+2026-05-19T21:55:29.100+02:00  INFO 13560 --- [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-19T21:55:29.123+02:00  INFO 13560 --- [  restartedMain] c.a.backend.AfyalinkBackendApplication   : Started AfyalinkBackendApplication in 39.099 seconds (process running for 44.044)
+2026-05-19T21:55:29.534+02:00 DEBUG 13560 --- [  restartedMain] org.hibernate.SQL                        : 
+    select
+        count(i1_0.id) 
+    from
+        interventions i1_0 
+    where
+        i1_0.deleted_at is null
+Hibernate: 
+    select
+        count(i1_0.id) 
+    from
+        interventions i1_0 
+    where
+        i1_0.deleted_at is null
+2026-05-19T21:55:29.575+02:00 DEBUG 13560 --- [  restartedMain] c.a.b.config.InterventionSeedDataLoader  : Interventions already exist, skipping seed.
+2026-05-19T21:55:55.974+02:00  INFO 13560 --- [nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-19T21:55:55.975+02:00  INFO 13560 --- [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-19T21:55:55.977+02:00  INFO 13560 --- [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-05-19T21:55:56.829+02:00 DEBUG 13560 --- [nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.full_name,
+        u1_0.is_active,
+        u1_0.last_login_at,
+        u1_0.password_hash,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.supervisor_id 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.full_name,
+        u1_0.is_active,
+        u1_0.last_login_at,
+        u1_0.password_hash,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.supervisor_id 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-05-19T21:55:56.829+02:00 DEBUG 13560 --- [nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.full_name,
+        u1_0.is_active,
+        u1_0.last_login_at,
+        u1_0.password_hash,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.supervisor_id 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.full_name,
+        u1_0.is_active,
+        u1_0.last_login_at,
+        u1_0.password_hash,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.supervisor_id 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-05-19T21:55:57.065+02:00 DEBUG 13560 --- [nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        up1_0.user_id,
+        up1_0.avatar_initials,
+        up1_0.avatar_url,
+        up1_0.bio,
+        up1_0.department,
+        up1_0.job_title 
+    from
+        user_profiles up1_0 
+    where
+        up1_0.user_id=?
+Hibernate: 
+    select
+        up1_0.user_id,
+        up1_0.avatar_initials,
+        up1_0.avatar_url,
+        up1_0.bio,
+        up1_0.department,
+        up1_0.job_title 
+    from
+        user_profiles up1_0 
+    where
+        up1_0.user_id=?
+2026-05-19T21:55:57.065+02:00 DEBUG 13560 --- [nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        up1_0.user_id,
+        up1_0.avatar_initials,
+        up1_0.avatar_url,
+        up1_0.bio,
+        up1_0.department,
+        up1_0.job_title 
+    from
+        user_profiles up1_0 
+    where
+        up1_0.user_id=?
+Hibernate: 
+    select
+        up1_0.user_id,
+        up1_0.avatar_initials,
+        up1_0.avatar_url,
+        up1_0.bio,
+        up1_0.department,
+        up1_0.job_title 
+    from
+        user_profiles up1_0 
+    where
+        up1_0.user_id=?
+2026-05-19T21:55:57.104+02:00 DEBUG 13560 --- [nio-8080-exec-3] c.a.b.security.JwtAuthenticationFilter   : Set authentication for user: ishimwekwibukae@gmail.com
+2026-05-19T21:55:57.104+02:00 DEBUG 13560 --- [nio-8080-exec-4] c.a.b.security.JwtAuthenticationFilter   : Set authentication for user: ishimwekwibukae@gmail.com
+2026-05-19T21:55:57.151+02:00 DEBUG 13560 --- [nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.full_name,
+        u1_0.is_active,
+        u1_0.last_login_at,
+        u1_0.password_hash,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.supervisor_id 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.full_name,
+        u1_0.is_active,
+        u1_0.last_login_at,
+        u1_0.password_hash,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.supervisor_id 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-05-19T21:55:57.151+02:00 DEBUG 13560 --- [nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        up1_0.user_id,
+        up1_0.avatar_initials,
+        up1_0.avatar_url,
+        up1_0.bio,
+        up1_0.department,
+        up1_0.job_title 
+    from
+        user_profiles up1_0 
+    where
+        up1_0.user_id=?
+Hibernate: 
+    select
+        up1_0.user_id,
+        up1_0.avatar_initials,
+        up1_0.avatar_url,
+        up1_0.bio,
+        up1_0.department,
+        up1_0.job_title 
+    from
+        user_profiles up1_0 
+    where
+        up1_0.user_id=?
+2026-05-19T21:55:57.174+02:00 DEBUG 13560 --- [nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.full_name,
+        u1_0.is_active,
+        u1_0.last_login_at,
+        u1_0.password_hash,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.supervisor_id 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.full_name,
+        u1_0.is_active,
+        u1_0.last_login_at,
+        u1_0.password_hash,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.supervisor_id 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-05-19T21:55:57.175+02:00 DEBUG 13560 --- [nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        up1_0.user_id,
+        up1_0.avatar_initials,
+        up1_0.avatar_url,
+        up1_0.bio,
+        up1_0.department,
+        up1_0.job_title 
+    from
+        user_profiles up1_0 
+    where
+        up1_0.user_id=?
+Hibernate: 
+    select
+        up1_0.user_id,
+        up1_0.avatar_initials,
+        up1_0.avatar_url,
+        up1_0.bio,
+        up1_0.department,
+        up1_0.job_title 
+    from
+        user_profiles up1_0 
+    where
+        up1_0.user_id=?
+2026-05-19T21:55:57.182+02:00 DEBUG 13560 --- [nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.full_name,
+        u1_0.is_active,
+        u1_0.last_login_at,
+        u1_0.password_hash,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.supervisor_id 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.full_name,
+        u1_0.is_active,
+        u1_0.last_login_at,
+        u1_0.password_hash,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.supervisor_id 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2026-05-19T21:55:57.192+02:00 DEBUG 13560 --- [nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        up1_0.user_id,
+        up1_0.avatar_initials,
+        up1_0.avatar_url,
+        up1_0.bio,
+        up1_0.department,
+        up1_0.job_title 
+    from
+        user_profiles up1_0 
+    where
+        up1_0.user_id=?
+Hibernate: 
+    select
+        up1_0.user_id,
+        up1_0.avatar_initials,
+        up1_0.avatar_url,
+        up1_0.bio,
+        up1_0.department,
+        up1_0.job_title 
+    from
+        user_profiles up1_0 
+    where
+        up1_0.user_id=?
+2026-05-19T21:55:57.216+02:00 DEBUG 13560 --- [nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        n1_0.id,
+        n1_0.created_at,
+        n1_0.due_datetime,
+        n1_0.message,
+        n1_0.read_at,
+        n1_0.related_case_id,
+        n1_0.related_case_entry_id,
+        n1_0.related_conversation_id,
+        n1_0.related_intervention_id,
+        n1_0.related_message_id,
+        n1_0.sent_at,
+        n1_0.title,
+        n1_0.type,
+        n1_0.user_id 
+    from
+        notifications n1_0 
+    where
+        n1_0.user_id=? 
+    order by
+        n1_0.created_at desc 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        n1_0.id,
+        n1_0.created_at,
+        n1_0.due_datetime,
+        n1_0.message,
+        n1_0.read_at,
+        n1_0.related_case_id,
+        n1_0.related_case_entry_id,
+        n1_0.related_conversation_id,
+        n1_0.related_intervention_id,
+        n1_0.related_message_id,
+        n1_0.sent_at,
+        n1_0.title,
+        n1_0.type,
+        n1_0.user_id 
+    from
+        notifications n1_0 
+    where
+        n1_0.user_id=? 
+    order by
+        n1_0.created_at desc 
+    fetch
+        first ? rows only
+2026-05-19T21:55:57.281+02:00 DEBUG 13560 --- [nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        count(n1_0.id) 
+    from
+        notifications n1_0 
+    where
+        n1_0.user_id=? 
+        and n1_0.read_at is null
+Hibernate: 
+    select
+        count(n1_0.id) 
+    from
+        notifications n1_0 
+    where
+        n1_0.user_id=? 
+        and n1_0.read_at is null
+2026-05-19T21:56:25.389+02:00 DEBUG 13560 --- [nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.full_name,
+        u1_0.is_active,
+        u1_0.last_login_at,
+        u1_0.password_hash,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.supervisor_id 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.full_name,
+        u1_0.is_active,
+        u1_0.last_login_at,
+        u1_0.password_hash,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.supervisor_id 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-05-19T21:56:25.389+02:00 DEBUG 13560 --- [nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.full_name,
+        u1_0.is_active,
+        u1_0.last_login_at,
+        u1_0.password_hash,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.supervisor_id 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.full_name,
+        u1_0.is_active,
+        u1_0.last_login_at,
+        u1_0.password_hash,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.supervisor_id 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-05-19T21:56:25.393+02:00 DEBUG 13560 --- [nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        up1_0.user_id,
+        up1_0.avatar_initials,
+        up1_0.avatar_url,
+        up1_0.bio,
+        up1_0.department,
+        up1_0.job_title 
+    from
+        user_profiles up1_0 
+    where
+        up1_0.user_id=?
+2026-05-19T21:56:25.393+02:00 DEBUG 13560 --- [nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        up1_0.user_id,
+        up1_0.avatar_initials,
+        up1_0.avatar_url,
+        up1_0.bio,
+        up1_0.department,
+        up1_0.job_title 
+    from
+        user_profiles up1_0 
+    where
+        up1_0.user_id=?
+Hibernate: 
+    select
+        up1_0.user_id,
+        up1_0.avatar_initials,
+        up1_0.avatar_url,
+        up1_0.bio,
+        up1_0.department,
+        up1_0.job_title 
+    from
+        user_profiles up1_0 
+    where
+        up1_0.user_id=?
+Hibernate: 
+    select
+        up1_0.user_id,
+        up1_0.avatar_initials,
+        up1_0.avatar_url,
+        up1_0.bio,
+        up1_0.department,
+        up1_0.job_title 
+    from
+        user_profiles up1_0 
+    where
+        up1_0.user_id=?
+2026-05-19T21:56:25.402+02:00 DEBUG 13560 --- [nio-8080-exec-7] c.a.b.security.JwtAuthenticationFilter   : Set authentication for user: ishimwekwibukae@gmail.com
+2026-05-19T21:56:25.402+02:00 DEBUG 13560 --- [nio-8080-exec-8] c.a.b.security.JwtAuthenticationFilter   : Set authentication for user: ishimwekwibukae@gmail.com
+2026-05-19T21:56:25.404+02:00 DEBUG 13560 --- [nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.full_name,
+        u1_0.is_active,
+        u1_0.last_login_at,
+        u1_0.password_hash,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.supervisor_id 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.full_name,
+        u1_0.is_active,
+        u1_0.last_login_at,
+        u1_0.password_hash,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.supervisor_id 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-05-19T21:56:25.404+02:00 DEBUG 13560 --- [nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.full_name,
+        u1_0.is_active,
+        u1_0.last_login_at,
+        u1_0.password_hash,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.supervisor_id 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.full_name,
+        u1_0.is_active,
+        u1_0.last_login_at,
+        u1_0.password_hash,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.supervisor_id 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-05-19T21:56:25.410+02:00 DEBUG 13560 --- [nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        up1_0.user_id,
+        up1_0.avatar_initials,
+        up1_0.avatar_url,
+        up1_0.bio,
+        up1_0.department,
+        up1_0.job_title 
+    from
+        user_profiles up1_0 
+    where
+        up1_0.user_id=?
+2026-05-19T21:56:25.410+02:00 DEBUG 13560 --- [nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        up1_0.user_id,
+        up1_0.avatar_initials,
+        up1_0.avatar_url,
+        up1_0.bio,
+        up1_0.department,
+        up1_0.job_title 
+    from
+        user_profiles up1_0 
+    where
+        up1_0.user_id=?
+Hibernate: 
+    select
+        up1_0.user_id,
+        up1_0.avatar_initials,
+        up1_0.avatar_url,
+        up1_0.bio,
+        up1_0.department,
+        up1_0.job_title 
+    from
+        user_profiles up1_0 
+    where
+        up1_0.user_id=?
+Hibernate: 
+    select
+        up1_0.user_id,
+        up1_0.avatar_initials,
+        up1_0.avatar_url,
+        up1_0.bio,
+        up1_0.department,
+        up1_0.job_title 
+    from
+        user_profiles up1_0 
+    where
+        up1_0.user_id=?
+2026-05-19T21:56:25.411+02:00 DEBUG 13560 --- [nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.full_name,
+        u1_0.is_active,
+        u1_0.last_login_at,
+        u1_0.password_hash,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.supervisor_id 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.full_name,
+        u1_0.is_active,
+        u1_0.last_login_at,
+        u1_0.password_hash,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.supervisor_id 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2026-05-19T21:56:25.411+02:00 DEBUG 13560 --- [nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        count(n1_0.id) 
+    from
+        notifications n1_0 
+    where
+        n1_0.user_id=? 
+        and n1_0.read_at is null
+Hibernate: 
+    select
+        count(n1_0.id) 
+    from
+        notifications n1_0 
+    where
+        n1_0.user_id=? 
+        and n1_0.read_at is null
+2026-05-19T21:56:25.411+02:00 DEBUG 13560 --- [nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        up1_0.user_id,
+        up1_0.avatar_initials,
+        up1_0.avatar_url,
+        up1_0.bio,
+        up1_0.department,
+        up1_0.job_title 
+    from
+        user_profiles up1_0 
+    where
+        up1_0.user_id=?
+Hibernate: 
+    select
+        up1_0.user_id,
+        up1_0.avatar_initials,
+        up1_0.avatar_url,
+        up1_0.bio,
+        up1_0.department,
+        up1_0.job_title 
+    from
+        user_profiles up1_0 
+    where
+        up1_0.user_id=?
+2026-05-19T21:56:25.420+02:00 DEBUG 13560 --- [nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        n1_0.id,
+        n1_0.created_at,
+        n1_0.due_datetime,
+        n1_0.message,
+        n1_0.read_at,
+        n1_0.related_case_id,
+        n1_0.related_case_entry_id,
+        n1_0.related_conversation_id,
+        n1_0.related_intervention_id,
+        n1_0.related_message_id,
+        n1_0.sent_at,
+        n1_0.title,
+        n1_0.type,
+        n1_0.user_id 
+    from
+        notifications n1_0 
+    where
+        n1_0.user_id=? 
+    order by
+        n1_0.created_at desc 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        n1_0.id,
+        n1_0.created_at,
+        n1_0.due_datetime,
+        n1_0.message,
+        n1_0.read_at,
+        n1_0.related_case_id,
+        n1_0.related_case_entry_id,
+        n1_0.related_conversation_id,
+        n1_0.related_intervention_id,
+        n1_0.related_message_id,
+        n1_0.sent_at,
+        n1_0.title,
+        n1_0.type,
+        n1_0.user_id 
+    from
+        notifications n1_0 
+    where
+        n1_0.user_id=? 
+    order by
+        n1_0.created_at desc 
+    fetch
+        first ? rows only
+2026-05-19T21:56:55.389+02:00 DEBUG 13560 --- [nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.full_name,
+        u1_0.is_active,
+        u1_0.last_login_at,
+        u1_0.password_hash,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.supervisor_id 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.full_name,
+        u1_0.is_active,
+        u1_0.last_login_at,
+        u1_0.password_hash,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.supervisor_id 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-05-19T21:56:55.390+02:00 DEBUG 13560 --- [nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.full_name,
+        u1_0.is_active,
+        u1_0.last_login_at,
+        u1_0.password_hash,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.supervisor_id 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.full_name,
+        u1_0.is_active,
+        u1_0.last_login_at,
+        u1_0.password_hash,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.supervisor_id 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-05-19T21:56:55.392+02:00 DEBUG 13560 --- [nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        up1_0.user_id,
+        up1_0.avatar_initials,
+        up1_0.avatar_url,
+        up1_0.bio,
+        up1_0.department,
+        up1_0.job_title 
+    from
+        user_profiles up1_0 
+    where
+        up1_0.user_id=?
+Hibernate: 
+    select
+        up1_0.user_id,
+        up1_0.avatar_initials,
+        up1_0.avatar_url,
+        up1_0.bio,
+        up1_0.department,
+        up1_0.job_title 
+    from
+        user_profiles up1_0 
+    where
+        up1_0.user_id=?
+2026-05-19T21:56:55.394+02:00 DEBUG 13560 --- [nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        up1_0.user_id,
+        up1_0.avatar_initials,
+        up1_0.avatar_url,
+        up1_0.bio,
+        up1_0.department,
+        up1_0.job_title 
+    from
+        user_profiles up1_0 
+    where
+        up1_0.user_id=?
+Hibernate: 
+    select
+        up1_0.user_id,
+        up1_0.avatar_initials,
+        up1_0.avatar_url,
+        up1_0.bio,
+        up1_0.department,
+        up1_0.job_title 
+    from
+        user_profiles up1_0 
+    where
+        up1_0.user_id=?
+2026-05-19T21:56:55.398+02:00 DEBUG 13560 --- [nio-8080-exec-1] c.a.b.security.JwtAuthenticationFilter   : Set authentication for user: ishimwekwibukae@gmail.com
+2026-05-19T21:56:55.399+02:00 DEBUG 13560 --- [nio-8080-exec-2] c.a.b.security.JwtAuthenticationFilter   : Set authentication for user: ishimwekwibukae@gmail.com
+2026-05-19T21:56:55.403+02:00 DEBUG 13560 --- [nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.full_name,
+        u1_0.is_active,
+        u1_0.last_login_at,
+        u1_0.password_hash,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.supervisor_id 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.full_name,
+        u1_0.is_active,
+        u1_0.last_login_at,
+        u1_0.password_hash,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.supervisor_id 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-05-19T21:56:55.405+02:00 DEBUG 13560 --- [nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        up1_0.user_id,
+        up1_0.avatar_initials,
+        up1_0.avatar_url,
+        up1_0.bio,
+        up1_0.department,
+        up1_0.job_title 
+    from
+        user_profiles up1_0 
+    where
+        up1_0.user_id=?
+Hibernate: 
+    select
+        up1_0.user_id,
+        up1_0.avatar_initials,
+        up1_0.avatar_url,
+        up1_0.bio,
+        up1_0.department,
+        up1_0.job_title 
+    from
+        user_profiles up1_0 
+    where
+        up1_0.user_id=?
+2026-05-19T21:56:55.407+02:00 DEBUG 13560 --- [nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.full_name,
+        u1_0.is_active,
+        u1_0.last_login_at,
+        u1_0.password_hash,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.supervisor_id 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.full_name,
+        u1_0.is_active,
+        u1_0.last_login_at,
+        u1_0.password_hash,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.supervisor_id 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-05-19T21:56:55.409+02:00 DEBUG 13560 --- [nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        up1_0.user_id,
+        up1_0.avatar_initials,
+        up1_0.avatar_url,
+        up1_0.bio,
+        up1_0.department,
+        up1_0.job_title 
+    from
+        user_profiles up1_0 
+    where
+        up1_0.user_id=?
+Hibernate: 
+    select
+        up1_0.user_id,
+        up1_0.avatar_initials,
+        up1_0.avatar_url,
+        up1_0.bio,
+        up1_0.department,
+        up1_0.job_title 
+    from
+        user_profiles up1_0 
+    where
+        up1_0.user_id=?
+2026-05-19T21:56:55.415+02:00 DEBUG 13560 --- [nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.full_name,
+        u1_0.is_active,
+        u1_0.last_login_at,
+        u1_0.password_hash,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.supervisor_id 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.full_name,
+        u1_0.is_active,
+        u1_0.last_login_at,
+        u1_0.password_hash,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.supervisor_id 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2026-05-19T21:56:55.415+02:00 DEBUG 13560 --- [nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        count(n1_0.id) 
+    from
+        notifications n1_0 
+    where
+        n1_0.user_id=? 
+        and n1_0.read_at is null
+Hibernate: 
+    select
+        count(n1_0.id) 
+    from
+        notifications n1_0 
+    where
+        n1_0.user_id=? 
+        and n1_0.read_at is null
+2026-05-19T21:56:55.418+02:00 DEBUG 13560 --- [nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        up1_0.user_id,
+        up1_0.avatar_initials,
+        up1_0.avatar_url,
+        up1_0.bio,
+        up1_0.department,
+        up1_0.job_title 
+    from
+        user_profiles up1_0 
+    where
+        up1_0.user_id=?
+Hibernate: 
+    select
+        up1_0.user_id,
+        up1_0.avatar_initials,
+        up1_0.avatar_url,
+        up1_0.bio,
+        up1_0.department,
+        up1_0.job_title 
+    from
+        user_profiles up1_0 
+    where
+        up1_0.user_id=?
+2026-05-19T21:56:55.423+02:00 DEBUG 13560 --- [nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        n1_0.id,
+        n1_0.created_at,
+        n1_0.due_datetime,
+        n1_0.message,
+        n1_0.read_at,
+        n1_0.related_case_id,
+        n1_0.related_case_entry_id,
+        n1_0.related_conversation_id,
+        n1_0.related_intervention_id,
+        n1_0.related_message_id,
+        n1_0.sent_at,
+        n1_0.title,
+        n1_0.type,
+        n1_0.user_id 
+    from
+        notifications n1_0 
+    where
+        n1_0.user_id=? 
+    order by
+        n1_0.created_at desc 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        n1_0.id,
+        n1_0.created_at,
+        n1_0.due_datetime,
+        n1_0.message,
+        n1_0.read_at,
+        n1_0.related_case_id,
+        n1_0.related_case_entry_id,
+        n1_0.related_conversation_id,
+        n1_0.related_intervention_id,
+        n1_0.related_message_id,
+        n1_0.sent_at,
+        n1_0.title,
+        n1_0.type,
+        n1_0.user_id 
+    from
+        notifications n1_0 
+    where
+        n1_0.user_id=? 
+    order by
+        n1_0.created_at desc 
+    fetch
+        first ? rows only
