@@ -1,0 +1,62 @@
+export const ROUTES = {
+  HOME: '/',
+  LOGIN: '/login',
+  REGISTER: '/register',
+  FORGOT_PASSWORD: '/forgot-password',
+  VERIFY_OTP: '/verify-otp',
+  VERIFY_2FA: '/2fa-verify',
+  RESET_PASSWORD: '/reset-password',
+  PRIVACY_POLICY: '/privacy-policy',
+  TERMS_OF_SERVICE: '/terms-of-service',
+  COOKIE_POLICY: '/cookie-policy',
+
+  ADMIN: {
+    DASHBOARD: '/admin/dashboard',
+    BENEFICIARIES: '/admin/beneficiaries',
+    USERS: '/admin/users',
+    CASES: '/admin/cases',
+    INTERVENTIONS: '/admin/interventions',
+    SYSTEM_SETTINGS: '/admin/system-settings',
+    AUDIT_LOGS: '/admin/audit-logs',
+    REPORTS: '/admin/reports',
+    ANALYTICS: '/admin/analytics',
+    ALL_REPORTS: '/admin/reports',
+    PERFORMANCE: '/admin/performance',
+    SETTINGS: '/admin/settings',
+  },
+
+  SUPERVISOR: {
+    DASHBOARD: '/supervisor/dashboard',
+    BENEFICIARIES: '/supervisor/beneficiaries',
+    CASES: '/supervisor/cases',
+    INTERVENTIONS: '/supervisor/interventions',
+    CASE_MONITOR: '/supervisor/case-monitor',
+    REPORTS: '/supervisor/reports',
+    TEAM_ANALYTICS: '/supervisor/analytics',
+    TEAM_REPORTS: '/supervisor/team-reports',
+    SETTINGS: '/supervisor/settings',
+  },
+
+  SOCIAL_WORKER: {
+    DASHBOARD: '/social-worker/dashboard',
+    BENEFICIARIES: '/social-worker/beneficiaries',
+    MY_CASES: '/social-worker/cases',
+    INTERVENTIONS: '/social-worker/interventions',
+    SCHEDULE: '/social-worker/schedule',
+    FIELD_WORK: '/social-worker/field-work',
+    MY_REPORTS: '/social-worker/my-reports',
+    MY_REPORTS_CREATE: '/social-worker/my-reports/create',
+    SETTINGS: '/social-worker/settings',
+  },
+
+  SHARED: {
+    PROFILE: '/profile',
+    CHANGE_PASSWORD: '/change-password',
+    NOTIFICATIONS: '/notifications',
+    MESSAGES: '/messages',
+    REPORTS: '/reports',
+    SETTINGS: '/settings',
+  },
+
+  NOT_FOUND: '/404',
+};
