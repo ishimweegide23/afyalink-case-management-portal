@@ -22,3 +22,25 @@ Many social service organizations continue to rely on paper records, spreadsheet
 
 Without a centralized system, organizations struggle to monitor activities effectively and make informed decisions based on reliable data.
 
+---
+
+## Purpose of the Project
+
+The purpose of AfyaLink is to provide a modern digital solution that streamlines beneficiary and case management processes while improving collaboration, transparency, and service delivery.
+
+The platform serves as a central hub where social workers can manage cases, supervisors can monitor performance, and administrators can oversee organizational operations through a secure and scalable environment.
+
+---
+
+## Project Objectives
+
+| Objective | Description |
+| --- | --- |
+| Centralize Data Management | Store beneficiaries, cases, interventions, and reports in a single platform |
+| Improve Service Delivery | Enable timely tracking and management of interventions |
+| Enhance Collaboration | Support communication between social workers, supervisors, and administrators |
+| Strengthen Accountability | Maintain audit logs and activity histories |
+| Support Decision Making | Provide dashboards, analytics, and reporting tools |
+| Ensure Data Security | Implement authentication, authorization, and secure access controls |
+| Increase Operational Efficiency | Reduce manual processes and duplicate work |
+
