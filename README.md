@@ -44,3 +44,12 @@ The platform serves as a central hub where social workers can manage cases, supe
 | Ensure Data Security | Implement authentication, authorization, and secure access controls |
 | Increase Operational Efficiency | Reduce manual processes and duplicate work |
 
+---
+
+## Target Users
+
+### Social Workers
+Field-Based Practitioners providing direct services to beneficiaries across assigned districts.
+* **Needs**: Mobile access to client information, simple beneficiary registration, intervention planning, performance feedback, and photo evidence documentation.
+* **Benefits**: Spend less time on administrative tasks, use mobile-responsive interface, receive push notifications, view personal performance dashboards, and attach field evidence directly to interventions.
+
