@@ -53,3 +53,8 @@ Field-Based Practitioners providing direct services to beneficiaries across assi
 * **Needs**: Mobile access to client information, simple beneficiary registration, intervention planning, performance feedback, and photo evidence documentation.
 * **Benefits**: Spend less time on administrative tasks, use mobile-responsive interface, receive push notifications, view personal performance dashboards, and attach field evidence directly to interventions.
 
+### Supervisors
+Team Leaders managing social workers in assigned districts.
+* **Needs**: Real-time visibility of team activities, case assignment capability, tools to review reports, team performance metrics, and communication tools.
+* **Benefits**: View workload at a glance, access case review queue, receive automatic workload recommendations, scope data to their district, generate weekly team reports, and objectively rank team members.
+
