@@ -58,3 +58,8 @@ Team Leaders managing social workers in assigned districts.
 * **Needs**: Real-time visibility of team activities, case assignment capability, tools to review reports, team performance metrics, and communication tools.
 * **Benefits**: View workload at a glance, access case review queue, receive automatic workload recommendations, scope data to their district, generate weekly team reports, and objectively rank team members.
 
+### Administrators
+System Managers overseeing all users, configuration, and strategic reporting.
+* **Needs**: Full system visibility, user account management, organization-wide performance monitoring, comprehensive reporting, and audit logging.
+* **Benefits**: View system-wide KPI dashboard, create users with location-based scoping, access organization-level dashboards, configure report templates, export audit logs, and manage integration APIs.
+
