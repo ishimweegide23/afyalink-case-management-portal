@@ -63,3 +63,13 @@ System Managers overseeing all users, configuration, and strategic reporting.
 * **Needs**: Full system visibility, user account management, organization-wide performance monitoring, comprehensive reporting, and audit logging.
 * **Benefits**: View system-wide KPI dashboard, create users with location-based scoping, access organization-level dashboards, configure report templates, export audit logs, and manage integration APIs.
 
+---
+
+## Key Features
+
+### 1. Beneficiary Management
+Register and track vulnerable populations with complete demographic and assessment information. System maintains comprehensive beneficiary profiles with contact information, location details, vulnerability assessment scores, and service history.
+
+### 2. Case Management
+Create and track cases for each beneficiary requiring long-term support. Cases progress from OPEN through IN_PROGRESS to CLOSED with real-time status updates and progress percentage tracking.
+
