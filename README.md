@@ -73,3 +73,9 @@ Register and track vulnerable populations with complete demographic and assessme
 ### 2. Case Management
 Create and track cases for each beneficiary requiring long-term support. Cases progress from OPEN through IN_PROGRESS to CLOSED with real-time status updates and progress percentage tracking.
 
+### 3. Intervention Tracking
+Plan, execute, and track interventions with effectiveness scoring. Each intervention represents a specific action taken to help a beneficiary achieve case goals.
+
+### 4. Location-Based Assignment System
+Automatic validation that workers are assigned only to supervisors in their district. Includes district-level access control, automatic location filtering, and geographic coverage analytics.
+
