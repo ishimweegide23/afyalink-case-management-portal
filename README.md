@@ -79,3 +79,9 @@ Plan, execute, and track interventions with effectiveness scoring. Each interven
 ### 4. Location-Based Assignment System
 Automatic validation that workers are assigned only to supervisors in their district. Includes district-level access control, automatic location filtering, and geographic coverage analytics.
 
+### 5. Real-Time Performance Scoring
+Automated weekly performance algorithm calculates scores based on case completion rate, report submission timeliness, intervention effectiveness, and compliance metrics.
+
+### 6. Supervisor and Admin Dashboards
+Role-based dashboards providing relevant KPIs and actionable insights. Includes team overviews, pending actions, system health indicators, and organization-wide metrics.
+
