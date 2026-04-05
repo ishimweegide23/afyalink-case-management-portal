@@ -85,3 +85,9 @@ Automated weekly performance algorithm calculates scores based on case completio
 ### 6. Supervisor and Admin Dashboards
 Role-based dashboards providing relevant KPIs and actionable insights. Includes team overviews, pending actions, system health indicators, and organization-wide metrics.
 
+### 7. Report Generation
+Automated report creation for multiple time periods and stakeholder audiences. Auto-populated data from system activities with customizable narrative sections and success story inclusion.
+
+### 8. Messaging and Collaboration
+Built-in communication system connecting workers, supervisors, and administrators. Includes direct messaging, broadcast messaging, case-level notes, and document sharing.
+
