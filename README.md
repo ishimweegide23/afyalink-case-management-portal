@@ -91,3 +91,12 @@ Automated report creation for multiple time periods and stakeholder audiences. A
 ### 8. Messaging and Collaboration
 Built-in communication system connecting workers, supervisors, and administrators. Includes direct messaging, broadcast messaging, case-level notes, and document sharing.
 
+### 9. Notifications System
+Multi-channel alerts keeping users informed of important events and deadlines. Supports instant, email, in-app, and scheduled notifications.
+
+### 10. Audit Logging
+Complete audit trail of all system actions for compliance and security. Logs who, what, when, and where with exportable formats and before/after comparisons.
+
+### 11. Document Management
+Upload, store, and organize field evidence and supporting documents. Features photo upload from field visits, file categorization, and automatic encryption.
+
