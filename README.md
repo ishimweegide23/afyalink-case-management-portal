@@ -100,3 +100,9 @@ Complete audit trail of all system actions for compliance and security. Logs who
 ### 11. Document Management
 Upload, store, and organize field evidence and supporting documents. Features photo upload from field visits, file categorization, and automatic encryption.
 
+### 12. Role-Based Access Control
+Three-tier permission system ensuring users access only appropriate data and functions based on their assigned role (Social Worker, Supervisor, Administrator).
+
+### 13. Authentication and Security
+Security features include JWT token-based authentication, AES-256 encryption at rest, TLS encryption in transit, session timeouts, and optional two-factor authentication.
+
