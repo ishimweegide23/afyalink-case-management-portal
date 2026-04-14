@@ -106,3 +106,27 @@ Three-tier permission system ensuring users access only appropriate data and fun
 ### 13. Authentication and Security
 Security features include JWT token-based authentication, AES-256 encryption at rest, TLS encryption in transit, session timeouts, and optional two-factor authentication.
 
+---
+
+## User Workflow
+
+### Social Worker Workflow
+1. Login to the system.
+2. Register or search for a beneficiary.
+3. Create a new case.
+4. Record case details.
+5. Create interventions related to the case.
+6. Upload supporting documents.
+7. Update intervention progress.
+8. Submit reports.
+9. Receive notifications and feedback.
+
+### Supervisor Workflow
+1. Login to the system.
+2. Review assigned cases.
+3. Monitor intervention progress.
+4. Evaluate social worker activities.
+5. Review submitted reports.
+6. Track organizational performance.
+7. Provide feedback and guidance.
+
