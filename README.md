@@ -130,3 +130,32 @@ Security features include JWT token-based authentication, AES-256 encryption at 
 6. Track organizational performance.
 7. Provide feedback and guidance.
 
+---
+
+## Technology Stack
+
+### Frontend
+| Technology | Purpose |
+| --- | --- |
+| React | User Interface Development |
+| TypeScript | Type Safety |
+| Vite | Frontend Build Tool |
+| Tailwind CSS | Styling Framework |
+| React Router | Navigation and Routing |
+| Recharts | Data Visualization |
+
+### Backend
+| Technology | Purpose |
+| --- | --- |
+| Spring Boot | Backend Framework |
+| Spring Security | Authentication and Authorization |
+| JWT | Secure Token Management |
+| REST API | Client-Server Communication |
+
+### Database and Infrastructure
+| Technology | Purpose |
+| --- | --- |
+| PostgreSQL | Primary Data Storage |
+| Redis | Caching and Session Management |
+| Docker | Containerization |
+
