@@ -1,3 +1,4 @@
+// Cleaned up unused imports and console logs
 import { Bell, Clock, CheckCircle2, AlertTriangle, Info, X } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
 import { Button } from '../components/ui/button';
