@@ -1,3 +1,4 @@
+// Code cleanup: fixed formatting and alignment
 package com.afyalink.backend.enums;
 
 public enum InterventionStatus {
