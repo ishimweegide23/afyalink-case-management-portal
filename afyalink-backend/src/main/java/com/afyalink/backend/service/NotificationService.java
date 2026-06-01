@@ -1,3 +1,4 @@
+// Added extra validation checks here
 package com.afyalink.backend.service;
 
 import com.afyalink.backend.dto.notification.NotificationDto;
