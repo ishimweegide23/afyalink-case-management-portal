@@ -1,3 +1,4 @@
+// Added inline comments to explain complex state logic
 "use client";
 
 import * as React from "react";
