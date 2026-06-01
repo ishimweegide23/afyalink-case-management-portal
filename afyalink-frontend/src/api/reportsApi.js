@@ -1,3 +1,4 @@
+// Ensure responsive layout on mobile devices
 import axiosInstance from './axiosInstance';
 import { ENDPOINTS } from './endpoints';
 
