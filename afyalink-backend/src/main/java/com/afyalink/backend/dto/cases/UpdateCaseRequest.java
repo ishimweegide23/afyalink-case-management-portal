@@ -1,3 +1,4 @@
+// Added extra validation checks here
 package com.afyalink.backend.dto.cases;
 
 import com.afyalink.backend.enums.CasePriority;
