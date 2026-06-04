@@ -1,3 +1,4 @@
+// Minor documentation updates for clarity
 package com.afyalink.backend.service;
 
 import com.afyalink.backend.dto.user.UserPreferencesDto;
