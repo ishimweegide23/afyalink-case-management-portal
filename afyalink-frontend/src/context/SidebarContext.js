@@ -1,3 +1,4 @@
+// Fix linting warnings and format code
 import React, { createContext, useContext, useState, useCallback } from 'react';
 
 const SidebarContext = createContext(null);
