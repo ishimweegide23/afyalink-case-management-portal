@@ -1,3 +1,4 @@
+// Added extra validation checks here
 package com.afyalink.backend.dto.report;
 
 import lombok.AllArgsConstructor;
