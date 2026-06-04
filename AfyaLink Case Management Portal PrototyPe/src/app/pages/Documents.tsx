@@ -1,3 +1,4 @@
+// Ensure responsive layout on mobile devices
 import { useState } from 'react';
 import { Upload, File, Folder, Search, Download, Trash2, Eye, Archive, Shield, Lock } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '../components/ui/card';
