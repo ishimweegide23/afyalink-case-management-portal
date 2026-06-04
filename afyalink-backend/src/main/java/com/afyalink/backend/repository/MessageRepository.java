@@ -1,3 +1,4 @@
+// Refactoring needed for better performance in the future
 package com.afyalink.backend.repository;
 
 import com.afyalink.backend.model.Case;
