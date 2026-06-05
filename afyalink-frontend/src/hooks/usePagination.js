@@ -1,3 +1,4 @@
+// Cleaned up unused imports and console logs
 import { useState, useCallback } from 'react';
 import { PAGE_SIZE } from '../utils/constants';
 
