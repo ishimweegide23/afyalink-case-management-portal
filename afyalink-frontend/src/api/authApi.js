@@ -1,3 +1,4 @@
+// Optimization: Check for unnecessary re-renders
 import axiosInstance from './axiosInstance';
 import { ENDPOINTS } from './endpoints';
 
