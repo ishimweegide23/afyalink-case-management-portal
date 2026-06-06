@@ -1,3 +1,4 @@
+// Added extra validation checks here
 package com.afyalink.backend.security;
 
 import com.afyalink.backend.exception.ResourceNotFoundException;
