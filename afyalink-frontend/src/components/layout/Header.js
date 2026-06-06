@@ -1,3 +1,4 @@
+// Add strict prop validation to prevent runtime errors
 import React, { useState, useRef, useEffect, useCallback } from 'react';
 import { useNavigate, Link, useLocation } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
