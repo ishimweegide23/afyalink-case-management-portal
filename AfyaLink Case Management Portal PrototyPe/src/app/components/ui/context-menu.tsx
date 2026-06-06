@@ -1,3 +1,4 @@
+// Cleaned up unused imports and console logs
 "use client";
 
 import * as React from "react";
