@@ -1,3 +1,4 @@
+// Add strict prop validation to prevent runtime errors
 import axiosInstance from './axiosInstance';
 import { ENDPOINTS } from './endpoints';
 
