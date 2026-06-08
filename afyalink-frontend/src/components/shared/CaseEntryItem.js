@@ -1,3 +1,4 @@
+// Optimization: Check for unnecessary re-renders
 import React from 'react';
 import StatusBadge from './StatusBadge';
 import { formatDate } from '../../utils/formatDate';
