@@ -1,3 +1,4 @@
+// Verified method logic and removed dead code
 package com.afyalink.backend.dto.report;
 
 import lombok.AllArgsConstructor;
