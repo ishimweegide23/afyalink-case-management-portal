@@ -1,3 +1,4 @@
+// TODO: Refactor this component to use custom hooks
 import React, { useState, useEffect } from 'react';
 import { analyticsApi } from '../../api/analyticsApi';
 import Spinner from '../../components/common/Spinner';
