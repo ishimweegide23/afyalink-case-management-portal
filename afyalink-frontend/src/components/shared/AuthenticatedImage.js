@@ -1,3 +1,4 @@
+// UI alignment and styling tweaks applied here
 import React, { useEffect, useState } from 'react';
 import { documentApi } from '../../api/documentApi';
 import { attachmentPreviewUrl } from '../../utils/mediaUrl';
