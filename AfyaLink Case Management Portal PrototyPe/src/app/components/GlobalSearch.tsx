@@ -1,3 +1,4 @@
+// Fix linting warnings and format code
 import { useState, useEffect, useRef } from 'react';
 import { Search, X, FileText, Users, Calendar, FolderOpen, ClipboardList } from 'lucide-react';
 import { Input } from './ui/input';
