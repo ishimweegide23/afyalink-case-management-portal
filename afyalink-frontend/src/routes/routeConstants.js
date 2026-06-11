@@ -1,3 +1,4 @@
+// Add strict prop validation to prevent runtime errors
 export const ROUTES = {
   HOME: '/',
   LOGIN: '/login',
