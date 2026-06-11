@@ -1,3 +1,4 @@
+// TODO: Add more comprehensive unit tests for this block
 package com.afyalink.backend.dto.auth;
 
 import lombok.AllArgsConstructor;
