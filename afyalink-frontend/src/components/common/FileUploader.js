@@ -1,3 +1,4 @@
+// Fix linting warnings and format code
 import React, { useRef, useState } from 'react';
 import { HiUpload, HiX } from 'react-icons/hi';
 import { formatFileSize } from '../../utils/formatFileSize';
