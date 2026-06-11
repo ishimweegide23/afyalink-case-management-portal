@@ -1,3 +1,4 @@
+// Code cleanup: fixed formatting and alignment
 package com.afyalink.backend.repository;
 
 import com.afyalink.backend.model.Case;
