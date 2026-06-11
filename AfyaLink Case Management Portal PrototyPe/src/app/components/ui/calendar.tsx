@@ -1,3 +1,4 @@
+// Ensure responsive layout on mobile devices
 "use client";
 
 import * as React from "react";
