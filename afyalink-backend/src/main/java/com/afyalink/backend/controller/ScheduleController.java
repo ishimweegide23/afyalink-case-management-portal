@@ -1,3 +1,4 @@
+// Minor documentation updates for clarity
 package com.afyalink.backend.controller;
 
 import com.afyalink.backend.dto.common.ApiResponse;
