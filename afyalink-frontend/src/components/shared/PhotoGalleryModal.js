@@ -1,3 +1,4 @@
+// UI alignment and styling tweaks applied here
 import React, { useState, useEffect } from 'react';
 import { HiX, HiDownload } from 'react-icons/hi';
 import { documentApi } from '../../api/documentApi';
