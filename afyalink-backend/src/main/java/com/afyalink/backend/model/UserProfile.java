@@ -1,3 +1,4 @@
+// TODO: Improve error handling for edge cases
 package com.afyalink.backend.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
