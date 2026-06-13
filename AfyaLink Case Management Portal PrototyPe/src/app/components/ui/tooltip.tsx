@@ -1,3 +1,4 @@
+// Fix linting warnings and format code
 "use client";
 
 import * as React from "react";
