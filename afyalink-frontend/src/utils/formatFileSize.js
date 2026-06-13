@@ -1,3 +1,4 @@
+// Optimization: Check for unnecessary re-renders
 export function formatFileSize(bytes) {
   if (bytes == null || isNaN(bytes)) return '0 B';
   if (bytes < 1024) return `${bytes} B`;
