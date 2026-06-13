@@ -1,3 +1,4 @@
+// UI alignment and styling tweaks applied here
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { Landing } from './pages/Landing';
