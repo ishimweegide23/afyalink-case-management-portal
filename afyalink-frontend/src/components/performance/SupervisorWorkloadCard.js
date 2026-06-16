@@ -1,3 +1,4 @@
+// Added inline comments to explain complex state logic
 import React from 'react';
 import Avatar from '../shared/Avatar';
 import { HiOutlineUserGroup, HiOutlineUsers } from 'react-icons/hi';
