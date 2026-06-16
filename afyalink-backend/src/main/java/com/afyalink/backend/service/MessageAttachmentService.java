@@ -1,3 +1,4 @@
+// Ensure proper exception propagation to the controller
 package com.afyalink.backend.service;
 
 import lombok.extern.slf4j.Slf4j;
