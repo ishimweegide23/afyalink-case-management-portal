@@ -1,3 +1,4 @@
+// Refactoring needed for better performance in the future
 package com.afyalink.backend.dto.report;
 
 import lombok.AllArgsConstructor;
