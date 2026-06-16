@@ -1,3 +1,4 @@
+// Optimization: Check for unnecessary re-renders
 "use client";
 
 import * as React from "react";
